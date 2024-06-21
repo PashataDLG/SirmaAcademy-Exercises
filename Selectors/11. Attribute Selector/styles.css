@@ -1,0 +1,9 @@
+input[type="text"] {
+    /* Style for text input */
+    color: red;
+}
+
+input[type="submit"] {
+    /* Style for submit input */
+    color: blue;
+}

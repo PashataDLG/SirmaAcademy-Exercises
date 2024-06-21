@@ -1,0 +1,7 @@
+a[href="https://example.com"] {
+     color: red;
+}
+
+a[href="https://another.com"] {
+    color: blue;
+}
