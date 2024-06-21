@@ -1,0 +1,7 @@
+p {
+   color: red; /* Style for type selector */
+}
+
+.highlight {
+   color: violet; /* Style for class selector */
+}
