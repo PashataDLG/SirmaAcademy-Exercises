@@ -1,0 +1,12 @@
+.box-model {
+    /* Set different margin, border, and padding values for a div element. */
+    margin: 40px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* Added some extra styling outside of the exercise*/
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
