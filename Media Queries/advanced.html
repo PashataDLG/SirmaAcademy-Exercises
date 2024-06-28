@@ -49,18 +49,19 @@
         }
 
         @media (min-width: 600px) and (max-width: 899px) {
-            .container {}
+            .container {
+                display: flex;
+                flex-direction: column;
+                margin-right: 20px;
+                margin-left: 20px;
+            }
 
-            nav {}
+            nav {
+                display: none;
+            }
         }
 
         @media (min-width: 900px) and (max-width: 1399px) {
-            nav {}
-
-            .container {}
-        }
-
-        @media (min-width: 1400px) {
             nav {
                 display: grid;
                 grid-template-columns: repeat(2, 100px);
@@ -78,6 +79,12 @@
                 gap: 15px;
                 margin-left: 206px;
             }
+        }
+
+        @media (min-width: 1400px) {
+            nav {}
+
+            .container {}
         }
     </style>
 </head>
