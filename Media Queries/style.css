@@ -43,6 +43,14 @@ main {
 }
 
 @media (min-width: 1200px) {
+    h1{
+        font-family: 'Permanent Marker', 'Courier New', Courier, monospace;
+        font-size: 36px;
+    }
+    footer {
+        font-size: 20px;
+        font-family: 'Operator Mono', 'Courier New', Courier, monospace;
+    }
     .container {
         grid-template-columns: repeat(3, 1fr);
     }
