@@ -6,6 +6,7 @@ body {
 
 .container {
     display: grid;
+    gap: 10px;
 }
 
 header, footer {
@@ -40,7 +41,17 @@ main {
 }
 
 @media (max-width: 599px) {
+    h1 {
+        font-family: 'Permanent Marker', 'Courier New', Courier, monospace;
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+        font-family: 'Operator Mono', 'Courier New', Courier, monospace;
+    }
     .container {
-        grid-template-columns: repeat(1, 1fr)
+        grid-template-columns: 1fr;
+        gap: 5px;
     }
 }
