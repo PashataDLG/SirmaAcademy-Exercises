@@ -1,42 +1,42 @@
 body {
-}
-
-header, footer {
-}
-
-nav {
-}
-
-nav a {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
 }
 
-.section {
-    
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 
-@media (min-width: 600px) and (max-width: 899px) {
+main {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.box {
+    background-color: #ddd;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+@media (min-width: 600px) and (max-width: 1199px) {
     .container {
     }
-
-    nav {
-    }
 }
 
-@media (min-width: 900px) and (max-width: 1399px) {
-    nav {
-    }
-
+@media (min-width: 1200px) {
     .container {
     }
 }
 
-@media (min-width: 1400px) {
-    nav {
-    }
-
+@media (max-width: 599px) {
     .container {
     }
 }
