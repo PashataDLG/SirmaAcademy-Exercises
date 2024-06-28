@@ -62,11 +62,21 @@
 
         @media (min-width: 1400px) {
             nav {
-               
+                display: grid;
+                grid-template-columns: repeat(2, 100px);
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 220px;
+                grid-auto-rows: min-content;
+                gap: 0;
             }
 
             .container {
-            
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+                margin-left: 206px;
             }
         }
     </style>
