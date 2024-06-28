@@ -81,10 +81,16 @@
             }
         }
 
-        @media (min-width: 1400px) {
-            nav {}
+        @media (max-width: 599px) {
+            nav {
+                display: none;
+            }
 
-            .container {}
+            .container {
+                display: flex;
+                flex-direction: column;
+                padding: 30px;
+            }
         }
     </style>
 </head>
