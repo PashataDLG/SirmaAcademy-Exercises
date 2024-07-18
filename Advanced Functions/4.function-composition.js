@@ -12,4 +12,4 @@ function compose (func1, func2) {
 
 const doubleThenSquare = compose(double, square);
 
-console.log(doubleThenSquare(3)); // Output: 36
+console.log(doubleThenSquare(3));
